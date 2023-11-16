@@ -15,7 +15,7 @@ importers:
       '@types/react': ^18.0.0
       '@types/react-dom': ^18.0.0
       '@visactor/vchart': 1.6.0
-      '@visactor/vtable': workspace:*
+      '@visactor/vtable': workspace:0.14.3-alpha.2
       '@vitejs/plugin-react': 3.1.0
       axios: ^1.4.0
       chalk: ^3.0.0
@@ -34,7 +34,7 @@ importers:
       vite: 3.2.6
       yargs: ^17.1.1
     dependencies:
-      '@arco-design/web-react': 2.46.1_5ifijlhiwgyo26nyk4gkpsvy4e
+      '@arco-design/web-react': 2.46.1_i57lr2uzp6y5ox2gwpkfdawwji
       '@visactor/vchart': 1.6.0
       '@visactor/vtable': link:../packages/vtable
       axios: 1.6.0
@@ -140,8 +140,8 @@ importers:
       '@types/mocha': 9.0.0
       '@types/node': 20.8.10
       '@types/offscreencanvas': 2019.6.4
-      '@types/react': 18.2.25
-      '@types/react-dom': 18.2.10
+      '@types/react': 18.2.35
+      '@types/react-dom': 18.2.14
       '@visactor/vchart': 1.6.0
       '@vitejs/plugin-react': 3.1.0_vite@3.2.6
       axios: 1.6.0
@@ -3198,15 +3198,6 @@ packages:
     dependencies:
       '@visactor/vutils': 0.16.6
       color-convert: 2.0.1
-
-  /@visactor/vrender-kits/0.16.1:
-    resolution: {integrity: sha512-vjOXLuQ2QSGzQc5JV41D2ohHjTMRTwzt/7wITAawQYdk0XQPRG8nmsY83BvfzDkOuhfNlsXyC3RxMsfS0eAXMg==}
-    dependencies:
-      '@resvg/resvg-js': 2.4.1
-      '@visactor/vrender-core': 0.16.1
-      '@visactor/vutils': 0.16.6
-      roughjs: 4.5.2
-    dev: false
 
   /@visactor/vrender-kits/0.16.11:
     resolution: {integrity: sha512-kXdmP66RHxrfexw8C6PmbdERxcL+IWfVrHv4AEyIhDv7/9g6CuaeXdxfQ+IfJoNiUZKa2qNxXP7eC1or7ttMjw==}
