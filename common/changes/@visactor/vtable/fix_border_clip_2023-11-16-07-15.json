@@ -1,7 +1,7 @@
 {
   "changes": [
     {
-      "comment": "fix: selectHeader copy data\n\n",
+      "comment": "fix: select_border_clip\n\n",
       "type": "patch",
       "packageName": "@visactor/vtable"
     }
